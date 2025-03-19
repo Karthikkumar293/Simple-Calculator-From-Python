@@ -1,0 +1,26 @@
+#Karthik calculator 
+
+print ("welcome to Karthik's calculator ")
+ar =["+", "-", "*", "/",]
+print(ar)
+print  ("please select in this"  "+", "-", "*", "/",)
+op = input("enter your op :")
+
+num1 =  float(input ("enter your first number:"))
+
+num2 = float(input ("enter your second number "))
+
+if (op== "+"):
+
+    print ("your result is", num1 +num2)
+
+elif (op=="-"):
+    print ("your result is" ,num1-num2)
+
+elif(op=="*"):
+
+    print ("your result is" ,num1*num2)
+
+elif(op=="/"):
+
+    print ("your result is" ,num1/num2)
